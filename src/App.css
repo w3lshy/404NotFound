@@ -1,38 +1,114 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap");
+
+.container {
+height: 100vh;
+min-height: 800px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding: 1em;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.test {
+  display: flex
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Header-not-found {
+position: absolute;
+width: 133px;
+height: 25px;
+left: 77px;
+top: 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.not-found-text {
+font-family: "Inconsolata", monospace;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 25px;
+letter-spacing: -0.08em;
+text-transform: uppercase;
+
+color: #333333;
 }
 
-.App-link {
-  color: #61dafb;
+
+.bad-news h1 {
+position: absolute;
+width: 586px;
+height: 190px;
+left: 735px;
+top: 265px;
+font-family: Space Mono;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 95px;
+letter-spacing: -0.035em;
+color: #333333;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bad-news p {
+position: absolute;
+width: 381px;
+height: 108px;
+left: 736px;
+top: 491px;
+font-family: Space Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 36px;
+letter-spacing: -0.035em;
+color: #4F4F4F; 
+}
+
+.imgContainer {
+  width: 50%;
+  margin-right: 160px;
+}
+.scareImg {
+width: 100%; 
+}
+
+.homeButton {
+position: absolute;
+width: 216px;
+height: 68px;
+left: 740px;
+top: 663px;
+background: #333333;
+}
+
+.buttonText {
+width: 130px;
+height: 21px;
+font-family: Space Mono;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+letter-spacing: -0.035em;
+color: #FFFFFF;
+}
+
+footer {
+  margin: 0 auto
+}
+
+.signature {
+position: absolute;
+width: 226px;
+height: 17px;
+left: 607px;
+top: 1024px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+color: #333333;
 }
